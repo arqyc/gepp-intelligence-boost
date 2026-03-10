@@ -38,7 +38,7 @@ export default function PlatformPage() {
         </section>
 
         {/* Platform Dashboard Showcase */}
-        <section className="py-20 lg:py-28">
+        <section className="py-14 lg:py-20">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="max-w-5xl mx-auto">
               <img
