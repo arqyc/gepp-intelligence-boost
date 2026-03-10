@@ -75,7 +75,7 @@ export default function TraceabilityPage() {
         </section>
 
         {/* 3 Easy Steps */}
-        <section className="py-20 lg:py-28 section-eco">
+        <section className="py-14 lg:py-20 section-eco">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="text-center mb-14">
               <h2 className="heading-lg text-foreground mb-4">3 Simple Steps — Weighing to Reporting</h2>
