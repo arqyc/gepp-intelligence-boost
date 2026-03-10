@@ -47,11 +47,11 @@ export default function InputInsightIntel() {
           {pillars.map((pillar, i) => (
             <div key={pillar.label} className="group relative">
               {/* Image */}
-              <div className="aspect-square rounded-xl overflow-hidden border border-border mb-5">
+              <div className="aspect-square rounded-xl overflow-hidden border border-border mb-5 bg-white flex items-center justify-center">
                 <img
                   src={pillar.img}
                   alt={pillar.alt}
-                  className="w-full h-full object-cover"
+                  className="w-full h-auto object-contain"
                 />
               </div>
 
