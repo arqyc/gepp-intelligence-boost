@@ -3,6 +3,9 @@ import Footer from '@/components/Footer';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Database, BarChart3, Shield, Eye, Zap, FileText } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import platformImg from '@/assets/platform-dashboard.png';
+import scaleCleanImg from '@/assets/scale-clean.jpg';
+import activeDataImg from '@/assets/active-data.png';
 
 const features = [
   { icon: Database, title: 'Waste Data Collection', desc: 'Micro-pinpoint data input across all waste streams. Capture weight, type, source, and destination at granular levels.' },
@@ -30,6 +33,79 @@ export default function PlatformPage() {
               <Link to="/contact" className="inline-block px-6 py-3 font-heading font-semibold text-sm bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors">
                 {t('hero.cta')}
               </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* Platform Dashboard Showcase */}
+        <section className="py-20 lg:py-28">
+          <div className="container mx-auto px-4 lg:px-8">
+            <div className="max-w-5xl mx-auto">
+              <img
+                src={platformImg}
+                alt="GEPP Intelligence dashboard showing waste reports, key indicators, and analytics"
+                className="w-full rounded-xl shadow-2xl"
+              />
+            </div>
+          </div>
+        </section>
+
+        {/* Input to Insights */}
+        <section className="py-20 lg:py-28 section-eco">
+          <div className="container mx-auto px-4 lg:px-8">
+            <div className="text-center mb-16">
+              <p className="text-xs font-heading font-semibold uppercase tracking-widest text-primary mb-4">Input to Insights</p>
+              <h2 className="heading-lg text-foreground mb-4">From Weighing to Intelligence — Seamlessly</h2>
+              <p className="body-md text-muted-foreground max-w-2xl mx-auto">
+                GEPP Intelligence turns raw waste data into actionable ESG insights. Start with effortless data capture, and access your intelligence anywhere.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+              {/* GEPP Scale — Data Input */}
+              <div>
+                <div className="rounded-xl overflow-hidden mb-8">
+                  <img
+                    src={scaleCleanImg}
+                    alt="GEPP Digital Scale — automated waste weighing hardware"
+                    className="w-full rounded-xl"
+                  />
+                </div>
+                <div>
+                  <div className="inline-flex items-center gap-2 mb-3">
+                    <div className="w-1 h-6 rounded-full bg-primary" />
+                    <p className="text-xs font-heading font-semibold uppercase tracking-widest text-primary">Data Input</p>
+                  </div>
+                  <h3 className="font-heading font-bold text-2xl text-foreground mb-3">GEPP Scale</h3>
+                  <p className="body-md text-muted-foreground">
+                    Purpose-built digital weighing that captures waste type, weight, and source at the point of disposal. Data syncs automatically to the cloud — no manual logging, no spreadsheets.
+                  </p>
+                  <Link to="/traceability" className="inline-block mt-5 text-sm font-heading font-semibold text-primary hover:text-primary/80 transition-colors">
+                    Learn more about GEPP Scale →
+                  </Link>
+                </div>
+              </div>
+
+              {/* Active Data — Mobile App */}
+              <div>
+                <div className="flex justify-center mb-8">
+                  <img
+                    src={activeDataImg}
+                    alt="GEPP mobile app showing AI-powered ESG insights and waste management data"
+                    className="w-80 rounded-2xl"
+                  />
+                </div>
+                <div>
+                  <div className="inline-flex items-center gap-2 mb-3">
+                    <div className="w-1 h-6 rounded-full bg-primary" />
+                    <p className="text-xs font-heading font-semibold uppercase tracking-widest text-primary">Data in Your Hands</p>
+                  </div>
+                  <h3 className="font-heading font-bold text-2xl text-foreground mb-3">Active Data Mode</h3>
+                  <p className="body-md text-muted-foreground">
+                    Access your waste intelligence on the go. AI-powered insights on material management, budget tracking, and GHG reduction forecasts — all from your mobile device.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </section>
