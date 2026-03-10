@@ -52,7 +52,7 @@ export default function InputInsightIntel() {
                 <img
                   src={pillar.img}
                   alt={pillar.alt}
-                  className="w-full h-auto object-contain"
+                  className={`w-full h-full ${pillar.fit === 'cover' ? 'object-cover' : 'object-contain'}`}
                 />
               </div>
 
