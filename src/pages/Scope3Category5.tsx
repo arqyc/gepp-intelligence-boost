@@ -125,7 +125,7 @@ export default function Scope3Category5() {
         </section>
 
         {/* What is Category 5 */}
-        <section className="py-20 lg:py-28 section-eco">
+        <section className="py-14 lg:py-20 section-eco">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="max-w-3xl mx-auto text-center mb-16">
               <p className="text-xs font-heading font-semibold uppercase tracking-widest text-primary mb-3">Understanding the Impact</p>
