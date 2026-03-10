@@ -16,7 +16,7 @@ const translations: Record<string, Record<Language, string>> = {
   'nav.traceability': { en: 'Materials Traceability', th: 'ระบบตรวจสอบย้อนกลับ' },
   'nav.about': { en: 'About', th: 'เกี่ยวกับเรา' },
   'nav.contact': { en: 'Contact', th: 'ติดต่อเรา' },
-  'nav.login': { en: 'Login to GEPP Apps', th: 'เข้าสู่ระบบ GEPP' },
+  'nav.login': { en: 'Login', th: 'เข้าสู่ระบบ' },
   'nav.demo': { en: 'Request Demo', th: 'ขอทดลองใช้' },
 
   // Hero
