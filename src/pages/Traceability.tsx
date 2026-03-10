@@ -4,6 +4,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { Link } from 'react-router-dom';
 import { Wifi, Monitor, Shield, Weight, ClipboardCheck, Users, Settings, Check } from 'lucide-react';
 import scaleImg from '@/assets/scale.png';
+import scaleCleanImg from '@/assets/scale-clean.jpg';
 import howToScaleImg from '@/assets/how-to-scale.png';
 import scalePackageImg from '@/assets/scale-package.png';
 
