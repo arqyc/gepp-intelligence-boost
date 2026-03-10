@@ -10,6 +10,7 @@ const pillars = [
     desc: 'Effortless data capture at the source. GEPP Scale automates waste weighing and syncs data in real-time — no spreadsheets, no manual entry.',
     img: scaleCleanImg,
     alt: 'GEPP Digital Scale for automated waste weighing',
+    fit: 'cover' as const,
   },
   {
     label: 'Insight',
