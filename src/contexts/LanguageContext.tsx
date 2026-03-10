@@ -20,8 +20,9 @@ const translations: Record<string, Record<Language, string>> = {
   'nav.demo': { en: 'Request Demo', th: 'ขอทดลองใช้' },
 
   // Hero
-  'hero.title': { en: 'Your Waste Data, Solved.', th: 'ข้อมูลขยะของคุณ, จัดการแล้ว.' },
-  'hero.subtitle': { en: 'GEPP Intelligence transforms complex waste streams into actionable ESG insights. Scope 3 reporting, carbon accounting, and materials traceability — all from one platform.', th: 'GEPP Intelligence เปลี่ยนข้อมูลขยะที่ซับซ้อนให้เป็น ESG insights ที่นำไปใช้ได้จริง รายงาน Scope 3, การบัญชีคาร์บอน และการตรวจสอบย้อนกลับวัสดุ ทั้งหมดจากแพลตฟอร์มเดียว' },
+  'hero.title': { en: 'Turn Waste Into Your Strongest ESG Asset', th: 'เปลี่ยนขยะให้เป็นสินทรัพย์ ESG ที่แข็งแกร่งที่สุดของคุณ' },
+  'hero.origin': { en: 'Born from 8 years of real-world waste operations — GEPP Intelligence brings Waste Management Intelligence to everyone.', th: 'เกิดจากประสบการณ์จัดการขยะจริงกว่า 8 ปี — GEPP Intelligence นำ Waste Management Intelligence มาให้ทุกคน' },
+  'hero.subtitle': { en: 'From Scope 3 carbon accounting to materials traceability, GEPP Intelligence transforms your waste streams into auditable, actionable ESG data — on one platform.', th: 'ตั้งแต่บัญชีคาร์บอน Scope 3 ไปจนถึงการตรวจสอบย้อนกลับวัสดุ GEPP Intelligence เปลี่ยนข้อมูลขยะของคุณให้เป็นข้อมูล ESG ที่ตรวจสอบได้และนำไปใช้ได้จริง บนแพลตฟอร์มเดียว' },
   'hero.cta': { en: 'Request a Demo', th: 'ขอทดลองใช้' },
   'hero.cta2': { en: 'Explore the Platform', th: 'สำรวจแพลตฟอร์ม' },
 

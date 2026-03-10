@@ -1,5 +1,6 @@
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import Category5Banner from '@/components/home/Category5Banner';
 import HeroSection from '@/components/home/HeroSection';
 import PlatformOverview from '@/components/home/PlatformOverview';
 import StatsSection from '@/components/home/StatsSection';
@@ -12,6 +13,7 @@ const Index = () => {
     <>
       <Navbar />
       <main className="pt-16">
+        <Category5Banner />
         <HeroSection />
         <StatsSection />
         <PlatformOverview />
