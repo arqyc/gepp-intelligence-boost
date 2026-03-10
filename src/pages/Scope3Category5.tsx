@@ -224,7 +224,7 @@ export default function Scope3Category5() {
         </section>
 
         {/* For Existing Clients */}
-        <section className="py-20 lg:py-28 section-eco">
+        <section className="py-14 lg:py-20 section-eco">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="max-w-4xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>

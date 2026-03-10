@@ -12,7 +12,7 @@ export default function AboutPage() {
       <Navbar />
       <main className="pt-16">
         {/* Hero */}
-        <section className="py-24 lg:py-32 bg-card">
+        <section className="py-16 lg:py-24 bg-card">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="max-w-3xl">
               <h1 className="heading-xl text-foreground mb-6">{t('about.title')}</h1>
