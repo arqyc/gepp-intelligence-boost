@@ -24,7 +24,7 @@ export default function PlatformPage() {
       <Navbar />
       <main className="pt-16">
         {/* Hero */}
-        <section className="section-dark py-24 lg:py-32">
+        <section className="section-dark py-16 lg:py-24">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="max-w-3xl">
               <p className="text-xs font-heading font-semibold uppercase tracking-widest text-primary mb-4">The Platform</p>
@@ -38,7 +38,7 @@ export default function PlatformPage() {
         </section>
 
         {/* Platform Dashboard Showcase */}
-        <section className="py-20 lg:py-28">
+        <section className="py-14 lg:py-20">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="max-w-5xl mx-auto">
               <img
@@ -51,7 +51,7 @@ export default function PlatformPage() {
         </section>
 
         {/* Input to Insights */}
-        <section className="py-20 lg:py-28 section-eco">
+        <section className="py-14 lg:py-20 section-eco">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="text-center mb-16">
               <p className="text-xs font-heading font-semibold uppercase tracking-widest text-primary mb-4">Input to Insights</p>
@@ -111,7 +111,7 @@ export default function PlatformPage() {
         </section>
 
         {/* Features grid */}
-        <section className="py-20 lg:py-28">
+        <section className="py-14 lg:py-20">
           <div className="container mx-auto px-4 lg:px-8">
             <h2 className="heading-lg text-foreground mb-14">Platform Capabilities</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -129,7 +129,7 @@ export default function PlatformPage() {
         </section>
 
         {/* How it works */}
-        <section className="py-20 lg:py-28 bg-card">
+        <section className="py-14 lg:py-20 bg-card">
           <div className="container mx-auto px-4 lg:px-8">
             <h2 className="heading-lg text-foreground mb-14">How It Works</h2>
             <div className="grid grid-cols-1 md:grid-cols-5 gap-6">

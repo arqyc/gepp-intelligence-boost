@@ -16,7 +16,7 @@ export default function TraceabilityPage() {
       <Navbar />
       <main className="pt-16">
         {/* Hero */}
-        <section className="section-dark py-24 lg:py-32">
+        <section className="section-dark py-16 lg:py-24">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="max-w-3xl">
               <p className="text-xs font-heading font-semibold uppercase tracking-widest text-primary mb-4">GEPP Scale</p>
@@ -34,7 +34,7 @@ export default function TraceabilityPage() {
         </section>
 
         {/* Scale Product Showcase */}
-        <section className="py-20 lg:py-28">
+        <section className="py-14 lg:py-20">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="grid-two-col items-center">
               <div>
@@ -75,7 +75,7 @@ export default function TraceabilityPage() {
         </section>
 
         {/* 3 Easy Steps */}
-        <section className="py-20 lg:py-28 section-eco">
+        <section className="py-14 lg:py-20 section-eco">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="text-center mb-14">
               <h2 className="heading-lg text-foreground mb-4">3 Simple Steps — Weighing to Reporting</h2>
@@ -166,7 +166,7 @@ export default function TraceabilityPage() {
         </section>
 
         {/* Implementation & Change Management */}
-        <section className="py-20 lg:py-28">
+        <section className="py-14 lg:py-20">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="max-w-3xl mx-auto text-center mb-14">
               <h2 className="heading-lg text-foreground mb-4">We Don't Just Deliver Hardware — We Drive Change</h2>
@@ -194,7 +194,7 @@ export default function TraceabilityPage() {
         </section>
 
         {/* Pricing Packages */}
-        <section className="py-20 lg:py-28 section-eco">
+        <section className="py-14 lg:py-20 section-eco">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="text-center mb-14">
               <h2 className="heading-lg text-foreground mb-4">Choose Your Package</h2>

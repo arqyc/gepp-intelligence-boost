@@ -89,7 +89,7 @@ export default function Scope3Category5() {
             <img src={heroImg} alt="" className="w-full h-full object-cover" />
           </div>
           <div className="absolute inset-0 bg-gradient-to-r from-[hsl(150,30%,7%)] via-[hsl(150,30%,7%)/0.85] to-transparent" />
-          <div className="relative container mx-auto px-4 lg:px-8 py-28 lg:py-40">
+          <div className="relative container mx-auto px-4 lg:px-8 py-20 lg:py-28">
             <div className="max-w-2xl">
               <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/15 border border-primary/20 mb-6">
                 <Zap size={14} className="text-primary" />
@@ -125,7 +125,7 @@ export default function Scope3Category5() {
         </section>
 
         {/* What is Category 5 */}
-        <section className="py-20 lg:py-28 section-eco">
+        <section className="py-14 lg:py-20 section-eco">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="max-w-3xl mx-auto text-center mb-16">
               <p className="text-xs font-heading font-semibold uppercase tracking-widest text-primary mb-3">Understanding the Impact</p>
@@ -169,7 +169,7 @@ export default function Scope3Category5() {
         </section>
 
         {/* Features Grid */}
-        <section className="py-20 lg:py-28">
+        <section className="py-14 lg:py-20">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="max-w-2xl mb-14">
               <p className="text-xs font-heading font-semibold uppercase tracking-widest text-primary mb-3">Platform Capabilities</p>
@@ -196,7 +196,7 @@ export default function Scope3Category5() {
         </section>
 
         {/* How It Works */}
-        <section id="how-it-works" className="py-20 lg:py-28 section-dark">
+        <section id="how-it-works" className="py-14 lg:py-20 section-dark">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="max-w-2xl mx-auto text-center mb-16">
               <p className="text-xs font-heading font-semibold uppercase tracking-widest text-primary mb-3">Simple Activation</p>
@@ -224,7 +224,7 @@ export default function Scope3Category5() {
         </section>
 
         {/* For Existing Clients */}
-        <section className="py-20 lg:py-28 section-eco">
+        <section className="py-14 lg:py-20 section-eco">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="max-w-4xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
@@ -287,7 +287,7 @@ export default function Scope3Category5() {
         </section>
 
         {/* CTA */}
-        <section className="py-20 lg:py-28">
+        <section className="py-14 lg:py-20">
           <div className="container mx-auto px-4 lg:px-8 text-center">
             <div className="max-w-2xl mx-auto">
               <h2 className="heading-lg text-foreground mb-6">
