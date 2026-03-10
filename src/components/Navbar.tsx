@@ -24,7 +24,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
           <img src={geppLogo} alt="GEPP" className="h-9 w-auto" />
-          <span className="font-heading font-bold text-lg text-foreground hidden sm:inline">Intelligence</span>
+          
         </Link>
 
         {/* Desktop Nav */}
