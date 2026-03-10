@@ -24,7 +24,7 @@ export default function Scope3Page() {
           </div>
         </section>
 
-        <section className="py-20 lg:py-28">
+        <section className="py-14 lg:py-20">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="grid-two-col">
               <div>

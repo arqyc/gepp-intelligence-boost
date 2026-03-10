@@ -11,7 +11,7 @@ export default function StatsSection() {
   const { t } = useLanguage();
 
   return (
-    <section className="relative py-20 lg:py-28 overflow-hidden" style={{ background: 'linear-gradient(135deg, hsl(150 30% 7%), hsl(152 40% 12%))' }}>
+    <section className="relative py-14 lg:py-20 overflow-hidden" style={{ background: 'linear-gradient(135deg, hsl(150 30% 7%), hsl(152 40% 12%))' }}>
       {/* Subtle eco pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-10 left-10 w-32 h-32 rounded-full border-2 border-primary" />

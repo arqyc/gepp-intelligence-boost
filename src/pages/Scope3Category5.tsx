@@ -287,7 +287,7 @@ export default function Scope3Category5() {
         </section>
 
         {/* CTA */}
-        <section className="py-20 lg:py-28">
+        <section className="py-14 lg:py-20">
           <div className="container mx-auto px-4 lg:px-8 text-center">
             <div className="max-w-2xl mx-auto">
               <h2 className="heading-lg text-foreground mb-6">

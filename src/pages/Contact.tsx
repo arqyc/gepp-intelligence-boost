@@ -44,7 +44,7 @@ export default function ContactPage() {
     <>
       <Navbar />
       <main className="pt-16">
-        <section className="py-24 lg:py-32">
+        <section className="py-16 lg:py-24">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="grid-two-col">
               {/* Left — context */}

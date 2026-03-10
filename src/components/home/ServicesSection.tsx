@@ -13,7 +13,7 @@ export default function ServicesSection() {
   const { t } = useLanguage();
 
   return (
-    <section className="py-20 lg:py-28">
+    <section className="py-14 lg:py-20">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="max-w-2xl mb-14">
           <div className="inline-flex items-center gap-2 mb-3">

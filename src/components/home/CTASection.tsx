@@ -6,7 +6,7 @@ export default function CTASection() {
   const { t } = useLanguage();
 
   return (
-    <section className="py-20 lg:py-28 relative overflow-hidden">
+    <section className="py-14 lg:py-20 relative overflow-hidden">
       {/* Decorative background */}
       <div className="absolute inset-0 opacity-[0.03]">
         <div className="absolute -top-20 -right-20 w-96 h-96 rounded-full bg-primary" />

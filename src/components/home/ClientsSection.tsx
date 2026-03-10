@@ -7,7 +7,7 @@ export default function ClientsSection() {
   const sectors = ['Energy', 'Consumer Goods', 'Real Estate', 'Food & Beverage', 'Technology', 'Manufacturing'];
 
   return (
-    <section className="py-20 lg:py-28 section-eco">
+    <section className="py-14 lg:py-20 section-eco">
       <div className="container mx-auto px-4 lg:px-8 text-center">
         <div className="inline-flex items-center gap-2 mb-3">
           <Leaf size={16} className="text-primary" />

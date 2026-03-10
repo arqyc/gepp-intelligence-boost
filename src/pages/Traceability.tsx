@@ -194,7 +194,7 @@ export default function TraceabilityPage() {
         </section>
 
         {/* Pricing Packages */}
-        <section className="py-20 lg:py-28 section-eco">
+        <section className="py-14 lg:py-20 section-eco">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="text-center mb-14">
               <h2 className="heading-lg text-foreground mb-4">Choose Your Package</h2>

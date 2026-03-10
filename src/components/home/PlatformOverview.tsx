@@ -15,7 +15,7 @@ export default function PlatformOverview() {
   const { t } = useLanguage();
 
   return (
-    <section className="py-20 lg:py-28 section-eco">
+    <section className="py-14 lg:py-20 section-eco">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="grid-two-col items-center">
           {/* Left — metadata */}
