@@ -13,7 +13,7 @@ const translations: Record<string, Record<Language, string>> = {
   'nav.home': { en: 'Home', th: 'หน้าหลัก' },
   'nav.platform': { en: 'GEPP Intelligence', th: 'GEPP Intelligence' },
   'nav.scope3': { en: 'Scope 3 & ESG', th: 'Scope 3 & ESG' },
-  'nav.traceability': { en: 'Materials Traceability', th: 'ระบบตรวจสอบย้อนกลับ' },
+  'nav.traceability': { en: 'GEPP Scale', th: 'GEPP Scale' },
   'nav.about': { en: 'About', th: 'เกี่ยวกับเรา' },
   'nav.contact': { en: 'Contact', th: 'ติดต่อเรา' },
   'nav.login': { en: 'Login', th: 'เข้าสู่ระบบ' },
