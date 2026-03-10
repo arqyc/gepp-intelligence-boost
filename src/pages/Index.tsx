@@ -5,6 +5,7 @@ import HeroSection from '@/components/home/HeroSection';
 import PlatformOverview from '@/components/home/PlatformOverview';
 import StatsSection from '@/components/home/StatsSection';
 import ServicesSection from '@/components/home/ServicesSection';
+import InputInsightIntel from '@/components/home/InputInsightIntel';
 import ClientsSection from '@/components/home/ClientsSection';
 import CTASection from '@/components/home/CTASection';
 
@@ -17,6 +18,7 @@ const Index = () => {
         <HeroSection />
         <StatsSection />
         <PlatformOverview />
+        <InputInsightIntel />
         <ServicesSection />
         <ClientsSection />
         <CTASection />
