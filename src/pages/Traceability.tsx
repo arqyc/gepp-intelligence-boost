@@ -38,11 +38,13 @@ export default function TraceabilityPage() {
           <div className="container mx-auto px-4 lg:px-8">
             <div className="grid-two-col items-center">
               <div>
-                <img
-                  src={scaleImg}
-                  alt="GEPP Digital Scale with Bluetooth, 4G, and Wi-Fi connectivity"
-                  className="w-full rounded-xl"
-                />
+                <div className="aspect-[4/3] rounded-xl overflow-hidden">
+                  <img
+                    src={scaleCleanImg}
+                    alt="GEPP Digital Scale with Bluetooth, 4G, and Wi-Fi connectivity"
+                    className="w-full h-full object-cover object-center scale-125"
+                  />
+                </div>
               </div>
               <div>
                 <h2 className="heading-lg text-foreground mb-6">Built for Waste Rooms, Not Offices</h2>
