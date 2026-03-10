@@ -57,6 +57,14 @@ export default {
           DEFAULT: "hsl(var(--signal))",
           foreground: "hsl(var(--signal-foreground))",
         },
+        "eco-amber": {
+          DEFAULT: "hsl(var(--eco-amber))",
+          foreground: "hsl(var(--eco-amber-foreground))",
+        },
+        earth: {
+          DEFAULT: "hsl(var(--earth))",
+          light: "hsl(var(--earth-light))",
+        },
         "surface-dark": {
           DEFAULT: "hsl(var(--surface-dark))",
           foreground: "hsl(var(--surface-dark-foreground))",
@@ -94,12 +102,17 @@ export default {
           from: { opacity: "0" },
           to: { opacity: "1" },
         },
+        "pulse-eco": {
+          "0%, 100%": { opacity: "0.4" },
+          "50%": { opacity: "0.8" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "fade-in-up": "fade-in-up 0.6s ease-out forwards",
         "fade-in": "fade-in 0.5s ease-out forwards",
+        "pulse-eco": "pulse-eco 3s ease-in-out infinite",
       },
     },
   },
