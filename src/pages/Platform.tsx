@@ -51,7 +51,7 @@ export default function PlatformPage() {
         </section>
 
         {/* Input to Insights */}
-        <section className="py-20 lg:py-28 section-eco">
+        <section className="py-14 lg:py-20 section-eco">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="text-center mb-16">
               <p className="text-xs font-heading font-semibold uppercase tracking-widest text-primary mb-4">Input to Insights</p>
