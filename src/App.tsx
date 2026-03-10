@@ -24,6 +24,7 @@ const App = () => (
             <Route path="/" element={<Index />} />
             <Route path="/platform" element={<PlatformPage />} />
             <Route path="/scope-3" element={<Scope3Page />} />
+            <Route path="/scope-3/category-5" element={<Scope3Category5 />} />
             <Route path="/traceability" element={<TraceabilityPage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />
