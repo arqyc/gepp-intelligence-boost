@@ -10,6 +10,7 @@ const pillars = [
     desc: 'Effortless data capture at the source. GEPP Scale automates waste weighing and syncs data in real-time — no spreadsheets, no manual entry.',
     img: scaleCleanImg,
     alt: 'GEPP Digital Scale for automated waste weighing',
+    fit: 'cover' as const,
   },
   {
     label: 'Insight',
@@ -51,7 +52,7 @@ export default function InputInsightIntel() {
                 <img
                   src={pillar.img}
                   alt={pillar.alt}
-                  className="w-full h-auto object-contain"
+                  className={`w-full h-full ${pillar.fit === 'cover' ? 'object-cover' : 'object-contain'}`}
                 />
               </div>
 
