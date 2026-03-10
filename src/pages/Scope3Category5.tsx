@@ -89,7 +89,7 @@ export default function Scope3Category5() {
             <img src={heroImg} alt="" className="w-full h-full object-cover" />
           </div>
           <div className="absolute inset-0 bg-gradient-to-r from-[hsl(150,30%,7%)] via-[hsl(150,30%,7%)/0.85] to-transparent" />
-          <div className="relative container mx-auto px-4 lg:px-8 py-28 lg:py-40">
+          <div className="relative container mx-auto px-4 lg:px-8 py-20 lg:py-28">
             <div className="max-w-2xl">
               <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/15 border border-primary/20 mb-6">
                 <Zap size={14} className="text-primary" />
