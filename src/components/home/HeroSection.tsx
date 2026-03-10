@@ -55,22 +55,6 @@ export default function HeroSection() {
             </Link>
           </div>
 
-          {/* Credibility proof points */}
-          <div className="hidden lg:flex gap-8 mt-16 animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
-            {[
-              { icon: Clock, value: '8+', label: 'Years Experience' },
-              { icon: Building2, value: '100+', label: 'Enterprise Clients' },
-              { icon: BarChart3, value: '77.5M+', label: 'Trees Equivalent GHG Offset' },
-            ].map(({ icon: Icon, value, label }) => (
-              <div key={label} className="flex items-center gap-3 px-4 py-2 rounded-xl bg-surface-dark-foreground/5 backdrop-blur-sm border border-surface-dark-foreground/10">
-                <Icon size={16} className="text-primary shrink-0" />
-                <div>
-                  <span className="text-sm font-heading font-bold text-surface-dark-foreground">{value}</span>
-                  <span className="text-xs text-surface-dark-foreground/50 ml-1.5">{label}</span>
-                </div>
-              </div>
-            ))}
-          </div>
         </div>
       </div>
     </section>
