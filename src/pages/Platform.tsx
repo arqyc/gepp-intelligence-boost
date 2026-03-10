@@ -111,7 +111,7 @@ export default function PlatformPage() {
         </section>
 
         {/* Features grid */}
-        <section className="py-20 lg:py-28">
+        <section className="py-14 lg:py-20">
           <div className="container mx-auto px-4 lg:px-8">
             <h2 className="heading-lg text-foreground mb-14">Platform Capabilities</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
