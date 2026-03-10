@@ -166,7 +166,7 @@ export default function TraceabilityPage() {
         </section>
 
         {/* Implementation & Change Management */}
-        <section className="py-20 lg:py-28">
+        <section className="py-14 lg:py-20">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="max-w-3xl mx-auto text-center mb-14">
               <h2 className="heading-lg text-foreground mb-4">We Don't Just Deliver Hardware — We Drive Change</h2>
