@@ -18,7 +18,7 @@ export default function HeroSection() {
       <div className="absolute top-20 right-20 w-64 h-64 rounded-full border border-primary/10 animate-pulse-eco hidden xl:block" />
       <div className="absolute bottom-32 right-40 w-40 h-40 rounded-full border border-eco-amber/10 animate-pulse-eco hidden xl:block" style={{ animationDelay: '1s' }} />
 
-      <div className="container mx-auto px-4 lg:px-8 relative z-10 py-32">
+      <div className="container mx-auto px-4 lg:px-8 relative z-10 py-20 lg:py-24">
         <div className="max-w-3xl">
           {/* Credibility badge */}
           <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-6 bg-primary/10 border border-primary/20 rounded-full animate-fade-in backdrop-blur-sm">
