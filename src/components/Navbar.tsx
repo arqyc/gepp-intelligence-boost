@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useLanguage } from '@/contexts/LanguageContext';
 import geppLogo from '@/assets/gepp-logo.png';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Leaf } from 'lucide-react';
 
 const navLinks = [
   { key: 'nav.home', to: '/' },
@@ -19,12 +19,11 @@ export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b border-border">
       <div className="container mx-auto flex items-center justify-between h-16 px-4 lg:px-8">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
           <img src={geppLogo} alt="GEPP" className="h-9 w-auto" />
-          
         </Link>
 
         {/* Desktop Nav */}
@@ -33,9 +32,9 @@ export default function Navbar() {
             <Link
               key={to}
               to={to}
-              className={`px-3 py-2 text-sm font-medium rounded-md transition-colors ${
+              className={`px-3 py-2 text-sm font-medium rounded-lg transition-colors ${
                 location.pathname === to
-                  ? 'text-primary bg-primary-muted'
+                  ? 'text-primary bg-primary/10'
                   : 'text-muted-foreground hover:text-foreground hover:bg-muted'
               }`}
             >
@@ -48,7 +47,7 @@ export default function Navbar() {
         <div className="hidden lg:flex items-center gap-3">
           <button
             onClick={() => setLang(lang === 'en' ? 'th' : 'en')}
-            className="px-2 py-1 text-xs font-heading font-semibold border border-border rounded text-muted-foreground hover:text-foreground transition-colors"
+            className="px-2.5 py-1 text-xs font-heading font-semibold border border-border rounded-lg text-muted-foreground hover:text-foreground hover:border-primary/30 transition-colors"
           >
             {lang === 'en' ? 'TH' : 'EN'}
           </button>
@@ -62,8 +61,9 @@ export default function Navbar() {
           </a>
           <Link
             to="/contact"
-            className="px-4 py-2 text-sm font-semibold bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors"
+            className="inline-flex items-center gap-1.5 px-4 py-2 text-sm font-semibold bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-all hover:shadow-lg hover:shadow-primary/20"
           >
+            <Leaf size={14} />
             {t('nav.demo')}
           </Link>
         </div>
@@ -86,8 +86,8 @@ export default function Navbar() {
               key={to}
               to={to}
               onClick={() => setMobileOpen(false)}
-              className={`block px-3 py-2 text-sm font-medium rounded-md ${
-                location.pathname === to ? 'text-primary bg-primary-muted' : 'text-muted-foreground'
+              className={`block px-3 py-2 text-sm font-medium rounded-lg ${
+                location.pathname === to ? 'text-primary bg-primary/10' : 'text-muted-foreground'
               }`}
             >
               {t(key)}
@@ -96,7 +96,7 @@ export default function Navbar() {
           <div className="flex items-center gap-3 mt-3 px-3">
             <button
               onClick={() => setLang(lang === 'en' ? 'th' : 'en')}
-              className="px-2 py-1 text-xs font-heading font-semibold border border-border rounded text-muted-foreground"
+              className="px-2.5 py-1 text-xs font-heading font-semibold border border-border rounded-lg text-muted-foreground"
             >
               {lang === 'en' ? 'TH' : 'EN'}
             </button>
@@ -112,8 +112,9 @@ export default function Navbar() {
           <Link
             to="/contact"
             onClick={() => setMobileOpen(false)}
-            className="block mt-3 mx-3 px-4 py-2 text-sm font-semibold bg-primary text-primary-foreground rounded-md text-center"
+            className="flex items-center justify-center gap-1.5 mt-3 mx-3 px-4 py-2 text-sm font-semibold bg-primary text-primary-foreground rounded-lg text-center"
           >
+            <Leaf size={14} />
             {t('nav.demo')}
           </Link>
         </div>
