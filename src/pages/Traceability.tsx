@@ -80,39 +80,84 @@ export default function TraceabilityPage() {
                 No complex setup. No spreadsheets. Just weigh, record, and receive your reports automatically.
               </p>
             </div>
-            <img
-              src={howToScaleImg}
-              alt="3 steps: Bring sorted waste, Weigh and record on GEPP Scale, Get weekly reports by email"
-              className="w-full max-w-5xl mx-auto rounded-xl"
-            />
-
-            {/* Text-based steps below */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-14">
-              {[
-                {
-                  step: '1',
-                  title: 'Bring Your Sorted Waste',
-                  desc: 'If your waste is not sorted, it\'s ok — you can still measure as landfill waste. But if you sort, you\'ll know your impact of recycling!',
-                },
-                {
-                  step: '2',
-                  title: 'Weigh and Record',
-                  desc: 'Weigh your waste on GEPP Scale before you manage it (sale/disposal). Data syncs automatically to the cloud.',
-                },
-                {
-                  step: '3',
-                  title: 'Get Your Report Weekly',
-                  desc: 'Receive reports via email weekly, and free advising from the GEPP Sa-Ard team to optimize your waste operations!',
-                },
-              ].map(({ step, title, desc }) => (
-                <div key={step} className="text-center">
-                  <div className="w-12 h-12 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-heading font-bold text-xl mx-auto mb-4">
-                    {step}
-                  </div>
-                  <h3 className="font-heading font-semibold text-lg text-foreground mb-2">{title}</h3>
-                  <p className="body-sm text-muted-foreground">{desc}</p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+              {/* Step 1 */}
+              <div className="flex flex-col items-center text-center">
+                <div className="w-12 h-12 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-heading font-bold text-xl mb-5">
+                  1
                 </div>
-              ))}
+                <div className="w-full aspect-[4/3] rounded-xl overflow-hidden bg-card border border-border mb-5 flex items-center justify-center p-6">
+                  <div className="space-y-3 text-left w-full">
+                    <div className="flex items-center gap-3">
+                      <div className="w-8 h-8 rounded-md bg-primary/10 flex items-center justify-center">
+                        <ClipboardCheck size={16} className="text-primary" />
+                      </div>
+                      <span className="font-heading font-semibold text-sm text-foreground">Sort Your Waste</span>
+                    </div>
+                    <div className="grid grid-cols-2 gap-2">
+                      {['Plastic', 'Paper', 'Glass', 'Organic'].map((type) => (
+                        <div key={type} className="px-3 py-2 bg-primary/5 border border-primary/20 rounded-md text-xs font-heading font-medium text-foreground text-center">
+                          {type}
+                        </div>
+                      ))}
+                    </div>
+                    <p className="text-xs text-muted-foreground">Not sorted? Measure as general waste — you can still track!</p>
+                  </div>
+                </div>
+                <h3 className="font-heading font-semibold text-lg text-foreground mb-2">Bring Your Sorted Waste</h3>
+                <p className="body-sm text-muted-foreground">If your waste is not sorted, it's ok — you can still measure as landfill waste. But if you sort, you'll know your impact of recycling!</p>
+              </div>
+
+              {/* Step 2 */}
+              <div className="flex flex-col items-center text-center">
+                <div className="w-12 h-12 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-heading font-bold text-xl mb-5">
+                  2
+                </div>
+                <div className="w-full aspect-[4/3] rounded-xl overflow-hidden border border-border mb-5">
+                  <img
+                    src={scaleImg}
+                    alt="GEPP Digital Scale for waste weighing"
+                    className="w-full h-full object-contain bg-card p-4"
+                  />
+                </div>
+                <h3 className="font-heading font-semibold text-lg text-foreground mb-2">Weigh and Record</h3>
+                <p className="body-sm text-muted-foreground">Weigh your waste on GEPP Scale before you manage it (sale/disposal). Data syncs automatically to the cloud.</p>
+              </div>
+
+              {/* Step 3 */}
+              <div className="flex flex-col items-center text-center">
+                <div className="w-12 h-12 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-heading font-bold text-xl mb-5">
+                  3
+                </div>
+                <div className="w-full aspect-[4/3] rounded-xl overflow-hidden bg-card border border-border mb-5 flex items-center justify-center p-6">
+                  <div className="space-y-3 w-full">
+                    <div className="flex items-center gap-3 mb-3">
+                      <div className="w-8 h-8 rounded-md bg-primary/10 flex items-center justify-center">
+                        <Monitor size={16} className="text-primary" />
+                      </div>
+                      <span className="font-heading font-semibold text-sm text-foreground">Weekly Report</span>
+                    </div>
+                    <div className="space-y-2">
+                      {[
+                        { label: 'Recycled', pct: '72%', color: 'bg-primary' },
+                        { label: 'Organic', pct: '18%', color: 'bg-accent' },
+                        { label: 'Landfill', pct: '10%', color: 'bg-muted-foreground/30' },
+                      ].map(({ label, pct, color }) => (
+                        <div key={label} className="flex items-center gap-2">
+                          <span className="text-xs text-muted-foreground w-16 text-left">{label}</span>
+                          <div className="flex-1 h-2 bg-muted rounded-full overflow-hidden">
+                            <div className={`h-full ${color} rounded-full`} style={{ width: pct }} />
+                          </div>
+                          <span className="text-xs font-heading font-semibold text-foreground w-8 text-right">{pct}</span>
+                        </div>
+                      ))}
+                    </div>
+                    <p className="text-xs text-muted-foreground mt-2">Sent to your email every Monday</p>
+                  </div>
+                </div>
+                <h3 className="font-heading font-semibold text-lg text-foreground mb-2">Get Your Report Weekly</h3>
+                <p className="body-sm text-muted-foreground">Receive reports via email weekly, and free advising from the GEPP Sa-Ard team to optimize your waste operations!</p>
+              </div>
             </div>
           </div>
         </section>
