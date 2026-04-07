@@ -10,6 +10,7 @@ import Scope3Category5 from "./pages/Scope3Category5";
 import TraceabilityPage from "./pages/Traceability";
 import AboutPage from "./pages/About";
 import ContactPage from "./pages/Contact";
+import ESGLanding from "./pages/ESGLanding";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
