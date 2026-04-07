@@ -29,6 +29,7 @@ const App = () => (
             <Route path="/traceability" element={<TraceabilityPage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />
+            <Route path="/esg-consultation" element={<ESGLanding />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
