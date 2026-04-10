@@ -11,6 +11,7 @@ import TraceabilityPage from "./pages/Traceability";
 import AboutPage from "./pages/About";
 import ContactPage from "./pages/Contact";
 import ESGLanding from "./pages/ESGLanding";
+import BankingLanding from "./pages/BankingLanding";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
