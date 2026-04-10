@@ -12,6 +12,8 @@ import AboutPage from "./pages/About";
 import ContactPage from "./pages/Contact";
 import ESGLanding from "./pages/ESGLanding";
 import BankingLanding from "./pages/BankingLanding";
+import FMCGLanding from "./pages/FMCGLanding";
+import ManufacturingLanding from "./pages/ManufacturingLanding";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -31,7 +33,9 @@ const App = () => (
             <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/esg-consultation" element={<ESGLanding />} />
-            <Route path="/banking" element={<BankingLanding />} />
+            <Route path="/industries/banking" element={<BankingLanding />} />
+            <Route path="/industries/fmcg" element={<FMCGLanding />} />
+            <Route path="/industries/manufacturing" element={<ManufacturingLanding />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
